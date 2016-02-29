@@ -63,7 +63,7 @@ h1, h2 {
 
 .list-group-item {
   font-size: 3em;
-  padding: 15px 20px 15px 20px; 
+  padding: 15px 20px 15px 20px;
 }
 
 a.list-group-item {
@@ -230,7 +230,7 @@ a.list-group-item {
   position: relative;
 }*/
 
-@media only screen 
+@media only screen
 and (min-device-width : 736px) {
   .logo {
     width: 25%;
@@ -313,9 +313,8 @@ and (min-device-width : 736px) {
 
 #backButtonDiv {
    position: fixed;
-   z-index: 999999;
    top: 2%;
    left: 1%;
-   height: auto;
-   width: auto;
+   height: 7%;
+   width: 7%;
 }
