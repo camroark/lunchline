@@ -313,6 +313,7 @@ and (min-device-width : 736px) {
 
 #backButtonDiv {
    position: fixed;
+   z-index: 999999;
    top: 2%;
    left: 1%;
    height: 7%;
