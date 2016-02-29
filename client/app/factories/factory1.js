@@ -44,13 +44,6 @@ myApp
       calc : calc
    }
 })
-
-
-
-
-
-
-//Rick factories below here ^O^/
 .factory('PostData', function($http) {
 
   function updateWait(objToSend) {

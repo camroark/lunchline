@@ -5,7 +5,6 @@ myApp.controller('listCtrl', function(distance, Data, $scope, $http, $stateParam
    $scope.transferEvent = function(obj) {
       Data.clickedItem = obj;
       sessionStorage["tempStorage"] = JSON.stringify(obj);
-      Data.showButton = true;
    }
 
    navigator.geolocation.getCurrentPosition(function(position){
@@ -33,8 +32,6 @@ myApp.controller('listCtrl', function(distance, Data, $scope, $http, $stateParam
             }
          });
       });
-      //Fetch data for that location
    }
-
    $scope.restInfo();
 });
